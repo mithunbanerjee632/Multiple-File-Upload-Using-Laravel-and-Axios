@@ -10,15 +10,15 @@
       <div class="card">
 
         <div class="card-header">
-          <h5>Laravel Axios Multiple File Uploader</h4>
+          <h5>Laravel Axios Multiple File Uploader</h5>
         </div>
 
 
-        
-        <div class="card-body">
-        <button class="btn btn-primary btn-sm">Add Files</button>
 
-          <table class="table table-striped">
+        <div class="card-body">
+        <button class="btn btn-primary btn-sm adBtn">Add Files</button>
+
+          <table class="table table-striped ">
             <thead>
               <tr>
                 <th>File</th>
@@ -31,16 +31,8 @@
               </tr>
             </thead>
 
-            <tbody>
-              <tr>
-                <td>File</td>
-                <td>File Size</td>
-                <td><button class="btn btn-danger btn-sm">Cancel</button></td>
-                <td><button class="btn btn-primary btn-sm">Upload</button></td>
-                <td>Uploaded(MB)</td>
-                <td>Uploaded(%)</td>
-                <td>Status</td>
-              </tr>
+            <tbody class="fileList">
+
             </tbody>
           </table>
         <div>
